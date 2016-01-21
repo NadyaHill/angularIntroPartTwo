@@ -1,0 +1,45 @@
+h1 {
+	font-family: gangland;
+	font-size: 55px;
+	text-align: center;
+	background-color:white;
+	border-radius: 20px;
+}
+
+/*h1:hover{
+	color:pink;
+}*/
+
+
+a{
+	font-family: gangland;
+	font-size: 45px;
+	text-decoration: none;
+	color:black;
+	background-color: white;
+	border-radius: 20px;
+}
+
+a:hover{
+	color:lightblue;
+}
+
+/*a{
+	font-family: gangland;
+	font-size: 35px;
+}
+
+a:hover{
+	color:pink;
+}*/
+
+p{
+	font-family: blackjack;
+	font-size: 15px;
+	background-color:white;
+	border-radius: 20px;
+}
+
+p:hover{
+	color:pink;
+}
