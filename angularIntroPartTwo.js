@@ -8,9 +8,6 @@ angular
 			function($scope){
 				$scope.greeting="WELCOME TO ANGULAR INTRO PART TWO"
 
-				// $scope.addExclamation=function() {
-				// 	return "!"
-				// }
 
 
 
@@ -18,26 +15,27 @@ angular
 				$scope.showThis = true;
 				$scope.showThat = true;
 
-				$scope.link = function () {
+				$scope.linkOne = function () {
 					console.log("YOU SHO, BRO?")
 						if(confirm("You wanna go to this link fo shizzle?")===false) {
 							event.preventDefault()
-							$scope.takeOutThis();
-							$scope.takeOutThat();
+							$scope.showThis = false;
+							console.log("TAKIZZLED OUT!")
+
 						}
 				}
 
 
-				$scope.takeOutThis = function () {
-					console.log("TAKIZZLED OUT")
-					$scope.showThis = false;
-					$scope.showThat = false;
+				$scope.linkTwo = function () {
+					console.log("YOU SHO, BRO?")
+						if(confirm("You wanna go to this link fo shizzle?")===false) {
+							event.preventDefault()
+							$scope.showThat = false;
+							console.log("TAKIZZLED OUT!")
+						}
 				}
 
-				// $scope.takeOutThat = function () {
-				// 	console.log("TAKIZZLED OUT")
-				// 	$scope.showThat = false;
-				// }
+
 
 
 

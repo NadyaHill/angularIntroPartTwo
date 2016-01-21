@@ -6,9 +6,6 @@ h1 {
 	border-radius: 20px;
 }
 
-/*h1:hover{
-	color:pink;
-}*/
 
 
 a{
@@ -24,14 +21,7 @@ a:hover{
 	color:lightblue;
 }
 
-/*a{
-	font-family: gangland;
-	font-size: 35px;
-}
 
-a:hover{
-	color:pink;
-}*/
 
 p{
 	font-family: blackjack;
