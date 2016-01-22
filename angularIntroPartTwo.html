@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="tagModule">
 <head> 
+	<link href='https://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
 	<title>INTRO TO ANGULAR PART TWO</title>
 	<link rel = "stylesheet type" = "text/css" href="angularIntroPartTwo.css">
 	<script type = "text/javascript" src = "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js">
@@ -18,7 +19,7 @@
 
 	<div ng-controller="einsteinGraffiti">
 
-		<h1>{{greeting}}!</h1>
+		<h1>{{greeting | excitify}}</h1>
 
 		<a href="http://i.telegraph.co.uk/multimedia/archive/03243/graffiti_3243235b.jpg" target="blank" ng-click="linkOne()" ng-if="showThis">gangsta ipsum</a>
 

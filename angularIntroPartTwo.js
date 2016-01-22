@@ -4,12 +4,11 @@ angular.module("tagModule", []);
 angular
 	.module("tagModule")
 		.controller("einsteinGraffiti", [
-			"$scope",
-			function($scope){
-				$scope.greeting="WELCOME TO ANGULAR INTRO PART TWO"
+			"$scope", "$filter",
+			function($scope, $filter){
 
 
-
+				$scope.greeting = "WELCOME TO ANGULAR INTRO PART TWO"
 
 
 				$scope.showThis = true;
@@ -40,3 +39,20 @@ angular
 
 
 			}])
+
+// GO FORTH AND DOWNNLOAD THE STUFF FROM 1/22 MORNING LECTURE TO FIGURE THIS OUT
+
+
+angular.module("tagModule")
+		.filter("excitify", function (){
+			return function(expression){
+				return expression + "!!!"
+			}
+		})
+
+
+
+
+
+
+
